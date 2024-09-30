@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-image: url(img/walkstick.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: rgb(38, 0, 255);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slide {
+    margin: 0 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.portfolio {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-item {
+    display: block;
+    padding: 20px;
+    background: #eaeaea;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+    text-align: center;
+}
+
+.project-item:hover {
+    background: #ff6f61; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+
+.testimonials {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.star {
+    color: #ccc; /* Cor das estrelas não preenchidas */
+    font-size: 20px; /* Tamanho das estrelas */
+}
+
+.star.filled {
+    color: #ff6f61; /* Cor das estrelas preenchidas */
+}
+
+.star-half {
+    color: #ff6f61; /* Cor da estrela semi-preenchida */
+    font-size: 20px; /* Tamanho da estrela */
+    position: relative;
+}
+
+.star-half:before {
+    content: '★'; /* Estrela cheia */
+    position: absolute;
+    left: 0;
+    width: 50%; /* Ajuste para meio preenchido */
+    overflow: hidden;
+    color: #ff6f61; /* Cor da parte preenchida */
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+footer a{
+    color: rgb(201, 181, 255);
+    text-decoration: underline;
+}
+
+
